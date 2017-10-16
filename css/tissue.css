@@ -16,3 +16,7 @@
 .list-group-item.border-bottom-only:first-child {
     border-top: none;
 }
+
+.timeline-action-item {
+    margin-left: 16px;
+}
