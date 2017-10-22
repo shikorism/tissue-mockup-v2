@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tissue</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/tissue.css">
+    <script src="js/holder.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <a href="#" class="navbar-brand">Tissue</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">ホーム</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html#timeline">タイムライン</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html#stats">グラフ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html#okazu">オカズ</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="ranking.html">ランキング</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="holder.js/30x30" width="30" height="30" class="rounded d-inline-block align-top"> アドミニストレートチンポ さん
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a href="#" class="dropdown-item">設定</a>
+                    <a href="#" class="dropdown-item">ログアウト</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline">
+            <a href="checkin.html" class="btn btn-outline-success">チェックイン</a>
+        </form>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <nav class="nav nav-pills flex-column">
+                <div class="nav-link disabled">参加型ランキング</div>
+                <a href="#" class="nav-link active ml-2" data-toggle="pill" role="tab">オナ猿ランキング</a>
+                <a href="#" class="nav-link ml-2" data-toggle="pill" role="tab">オナ禁賢者ランキング</a>
+                <div class="nav-link disabled">全体ランキング</div>
+                <a href="#" class="nav-link ml-2" data-toggle="pill" role="tab">人気オカズランキング</a>
+            </nav>
+        </div>
+        <div class="col-lg-8">
+            <h2>オナ猿ランキング</h2>
+            <p class="text-secondary"><span class="oi oi-pulse"></span> シーズン: 201710</p>
+            <p class="text-secondary"><span class="oi oi-calendar"></span> 集計期間: 2017/10/01 00:00:00 ～ 2017/10/31 23:59:59</p>
+            <p>期間中に高い頻度でチェックインしているユーザのランキングです。 <a data-toggle="collapse" href="#rankingRule" aria-expanded="false" aria-controls="rankingRule">▼ 詳細</a></p>
+            <div id="rankingRule" class="collapse mb-2">
+                <div class="card card-body">
+                    <h5><span class="oi oi-check"></span> 集計の対象</h5>
+                    <ul>
+                        <li>シーズン中に参加登録をしているユーザのチェックイン回数</li>
+                    </ul>
+                    <h5><span class="oi oi-x"></span> 集計から除外される対象</h5>
+                    <ul>
+                        <li>短時間での連続チェックイン (目安はカップ麺作るくらいの時間)</li>
+                        <li>その他操作の際に「各種ランキング等への集計対象外」と明記されているチェックイン</li>
+                    </ul>
+                    <h5><span class="oi oi-warning"></span> 注意事項</h5>
+                    <ul>
+                        <li>健康にはくれぐれも注意してください。テクノブレイクランキングにはしたくない。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="alert alert-info d-flex align-items-baseline justify-content-between">
+                <p class="mb-0">あなたはこのランキングに参加していません。</p>
+                <button class="btn btn-primary">参加する</button>
+            </div>
+
+            <hr>
+
+            <ul class="list-group">
+                <li class="list-group-item border-bottom-only">
+                    <h4 class="font-weight-bold mb-3">1位 <small>(16 pt)</small></h4>
+                    <p><img src="holder.js/48x48" class="rounded mr-2"> <b>ユーザ</b> さん</p>
+                </li>
+                <li class="list-group-item border-bottom-only">
+                    <h4 class="mb-3">2位 <small>(12 pt)</small></h4>
+                    <p><img src="holder.js/48x48" class="rounded mr-2"> <b>ユーザ</b> さん</p>
+                </li>
+                <li class="list-group-item border-bottom-only">
+                    <h4 class="mb-3">3位 <small>(8 pt)</small></h4>
+                    <p><img src="holder.js/48x48" class="rounded mr-2"> <b>ユーザ</b> さん</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer class="tis-footer mt-4">
+    <div class="container-fluid p-3 p-md-4">
+        <p>Copyright (c) 2017 shikorism.net</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://github.com/shibafu528" class="text-dark">Admin(@shibafu528)</a></li>
+            <li class="list-inline-item"><a href="https://github.com/shikorism/tissue" class="text-dark">GitHub</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
